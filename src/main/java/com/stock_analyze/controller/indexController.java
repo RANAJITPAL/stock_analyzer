@@ -11,6 +11,6 @@ public class indexController {
 
     @PostMapping("/index/data/{date}")
     public ResponseEntity<String> showIndexData(@PathVariable(value = "date") String date){
-        return ResponseEntity.ok("Hello World"+date);
+        return ResponseEntity.ok("Hello World"+date+"test");
     }
 }
