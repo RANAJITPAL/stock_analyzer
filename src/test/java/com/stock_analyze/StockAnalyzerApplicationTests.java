@@ -1,4 +1,4 @@
-package com.stock_analyzer.stock_analyzer;
+package com.stock_analyze;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

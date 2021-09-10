@@ -1,4 +1,4 @@
-package com.stock_analyzer.stock_analyzer;
+package com.stock_analyze;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
