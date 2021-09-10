@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class indexController {
 
-    @PostMapping("/index/data/{date}")
+    @PostMapping("/index")
     public ResponseEntity<String> showIndexData(@PathVariable(value = "date") String date){
+        System.out.println("Test");
         return ResponseEntity.ok("Hello World"+date+"test");
     }
 }
